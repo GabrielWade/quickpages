@@ -14,6 +14,6 @@ window.addEventListener("scroll", function() {
     var image = document.getElementById("logoNav");
     
     header.classList.toggle('rolagem', window.scrollY > 200);
-    image.src = (window.scrollY > 200) ? "../assets/logo1.png" : "../assets/logo2.png";
+    image.src = (window.scrollY > 200) ? "assets/logo1.png" : "assets/logo2.png";
 });
 

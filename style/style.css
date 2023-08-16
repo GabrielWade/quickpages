@@ -96,16 +96,10 @@ header ul li a{
     .topnav img {
         width: 20%;
     }
-
-    
 }
   
 @media screen and (max-width: 930px) {
     .topnav.responsive {position: fixed;}
-    
-    .topnav.responsive .itensNav {
-        align-items: normal;
-    }
     
     .topnav.responsive nav {
       display:flex;
@@ -115,9 +109,14 @@ header ul li a{
         margin: 0;
     }
 
+    .topnav.responsive a {
+        font-size: 4vw;
+    }
+
     .topnav.responsive article {
         display: flex;
         flex-direction: column;
+        align-items: normal;
         gap: 20px;
     }
 
