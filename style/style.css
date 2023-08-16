@@ -117,7 +117,10 @@ header ul li a{
         display: flex;
         flex-direction: column;
         align-items: normal;
-        gap: 20px;
+        gap: 20px;.comoFunciona iframe {
+            width: 50%;
+            height: 30vw;
+         }
     }
 
     .topnav.responsive nav ul {
@@ -216,11 +219,11 @@ header ul li a{
     }
 
     .banner h1 {
-        font-size: 6vw;
+        font-size: 8vw;
     }
 
     .banner p {
-        font-size: 3vw;
+        font-size: 3.8vw;
     }
 }
 
@@ -237,6 +240,9 @@ header ul li a{
 
 .comoFunciona h1 {
     font-size: 3vw;
+    color: #fff;
+}
+.comoFunciona h1 span {
     color: var(--corPrimaria);
 }
 
@@ -256,4 +262,24 @@ header ul li a{
     cursor: pointer;
     font-size: 1.2vw;
     border-radius: 100px;
+}
+
+@media screen and (max-width: 930px) {
+    .comoFunciona h1 {
+        font-size: 6vw;
+    }
+
+    .comoFunciona button {
+        width: 100%;
+        height: 100%;
+        padding: 1vw 2vw 1vw 2vw;
+        font-size: 3.2vw;
+        border-radius: 100px;
+    }
+
+    .comoFunciona iframe {
+        width: 70%;
+        height: 40vw;
+     }
+
 }
